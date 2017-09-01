@@ -47,7 +47,6 @@ app.delete('/api/user/:userId/vehicle/:vehicleId', mainCtrl.removeOwner);
 app.delete('/api/vehicle/:vehicleId', mainCtrl.removeVehicle);
 
 
-
 // ===== Do not change port ===============
 const port = 3000;
 app.listen(port, () => {
